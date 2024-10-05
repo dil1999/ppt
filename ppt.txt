@@ -46,7 +46,8 @@ df.duplicated().sum()
 
 df0 = df.fillna(df['age'].mode())
 df0
-
+--------------save datasetin folder
+df.to_csv('output_file.csv', index=False)
 
 
 .........

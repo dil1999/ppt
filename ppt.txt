@@ -50,7 +50,8 @@ df0
 df.to_csv('output_file.csv', index=False)
 
 
-.........
+.........save data file 
+df.to_csv('output_file.csv', index=False)
 
 
 
